@@ -11,45 +11,45 @@ var wms_layers = [];
                 url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}'
             })
         });
-var format_Limitessidislimane_1 = new ol.format.GeoJSON();
-var features_Limitessidislimane_1 = format_Limitessidislimane_1.readFeatures(json_Limitessidislimane_1, 
+var format_Pharmacie_sidislimane_1 = new ol.format.GeoJSON();
+var features_Pharmacie_sidislimane_1 = format_Pharmacie_sidislimane_1.readFeatures(json_Pharmacie_sidislimane_1, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Limitessidislimane_1 = new ol.source.Vector({
+var jsonSource_Pharmacie_sidislimane_1 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Limitessidislimane_1.addFeatures(features_Limitessidislimane_1);
-var lyr_Limitessidislimane_1 = new ol.layer.Vector({
+jsonSource_Pharmacie_sidislimane_1.addFeatures(features_Pharmacie_sidislimane_1);
+var lyr_Pharmacie_sidislimane_1 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Limitessidislimane_1, 
-                style: style_Limitessidislimane_1,
-                popuplayertitle: 'Limites .sidislimane',
+                source:jsonSource_Pharmacie_sidislimane_1, 
+                style: style_Pharmacie_sidislimane_1,
+                popuplayertitle: 'Pharmacie_.sidislimane',
                 interactive: true,
-                title: '<img src="styles/legend/Limitessidislimane_1.png" /> Limites .sidislimane'
+                title: '<img src="styles/legend/Pharmacie_sidislimane_1.png" /> Pharmacie_.sidislimane'
             });
-var format_Pharmaciesidislimane_2 = new ol.format.GeoJSON();
-var features_Pharmaciesidislimane_2 = format_Pharmaciesidislimane_2.readFeatures(json_Pharmaciesidislimane_2, 
+var format_Limites_sidislimane_2 = new ol.format.GeoJSON();
+var features_Limites_sidislimane_2 = format_Limites_sidislimane_2.readFeatures(json_Limites_sidislimane_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Pharmaciesidislimane_2 = new ol.source.Vector({
+var jsonSource_Limites_sidislimane_2 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Pharmaciesidislimane_2.addFeatures(features_Pharmaciesidislimane_2);
-var lyr_Pharmaciesidislimane_2 = new ol.layer.Vector({
+jsonSource_Limites_sidislimane_2.addFeatures(features_Limites_sidislimane_2);
+var lyr_Limites_sidislimane_2 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Pharmaciesidislimane_2, 
-                style: style_Pharmaciesidislimane_2,
-                popuplayertitle: 'Pharmacie.sidislimane',
+                source:jsonSource_Limites_sidislimane_2, 
+                style: style_Limites_sidislimane_2,
+                popuplayertitle: 'Limites_sidislimane',
                 interactive: true,
-                title: '<img src="styles/legend/Pharmaciesidislimane_2.png" /> Pharmacie.sidislimane'
+                title: '<img src="styles/legend/Limites_sidislimane_2.png" /> Limites_sidislimane'
             });
 
-lyr_GoogleSatellite_0.setVisible(true);lyr_Limitessidislimane_1.setVisible(true);lyr_Pharmaciesidislimane_2.setVisible(true);
-var layersList = [lyr_GoogleSatellite_0,lyr_Limitessidislimane_1,lyr_Pharmaciesidislimane_2];
-lyr_Limitessidislimane_1.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'ID': 'ID', 'NAME': 'NAME', 'POP': 'POP', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
-lyr_Pharmaciesidislimane_2.set('fieldAliases', {'Name': 'Name', 'numéro_de': 'numéro_de', });
-lyr_Limitessidislimane_1.set('fieldImages', {'OBJECTID': 'Range', 'ID': 'TextEdit', 'NAME': 'TextEdit', 'POP': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
-lyr_Pharmaciesidislimane_2.set('fieldImages', {'Name': 'TextEdit', 'numéro_de': 'TextEdit', });
-lyr_Limitessidislimane_1.set('fieldLabels', {'OBJECTID': 'no label', 'ID': 'no label', 'NAME': 'no label', 'POP': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
-lyr_Pharmaciesidislimane_2.set('fieldLabels', {'Name': 'header label - visible with data', 'numéro_de': 'header label - visible with data', });
-lyr_Pharmaciesidislimane_2.on('precompose', function(evt) {
+lyr_GoogleSatellite_0.setVisible(true);lyr_Pharmacie_sidislimane_1.setVisible(true);lyr_Limites_sidislimane_2.setVisible(true);
+var layersList = [lyr_GoogleSatellite_0,lyr_Pharmacie_sidislimane_1,lyr_Limites_sidislimane_2];
+lyr_Pharmacie_sidislimane_1.set('fieldAliases', {'Name': 'Name', 'Telephone': 'Telephone', });
+lyr_Limites_sidislimane_2.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'ID': 'ID', 'NAME': 'NAME', 'POP': 'POP', 'Shape_Leng': 'Shape_Leng', 'Shape_Area': 'Shape_Area', });
+lyr_Pharmacie_sidislimane_1.set('fieldImages', {'Name': 'TextEdit', 'Telephone': 'TextEdit', });
+lyr_Limites_sidislimane_2.set('fieldImages', {'OBJECTID': 'Range', 'ID': 'TextEdit', 'NAME': 'TextEdit', 'POP': 'TextEdit', 'Shape_Leng': 'TextEdit', 'Shape_Area': 'TextEdit', });
+lyr_Pharmacie_sidislimane_1.set('fieldLabels', {'Name': 'header label - visible with data', 'Telephone': 'header label - visible with data', });
+lyr_Limites_sidislimane_2.set('fieldLabels', {'OBJECTID': 'no label', 'ID': 'no label', 'NAME': 'header label - visible with data', 'POP': 'no label', 'Shape_Leng': 'no label', 'Shape_Area': 'no label', });
+lyr_Limites_sidislimane_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

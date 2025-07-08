@@ -1,0 +1,30 @@
+var json_Pharmacie_sidislimane_1 = {
+"type": "FeatureCollection",
+"name": "Pharmacie_sidislimane_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Pharmacie Ghoumaryene", "Telephone": 537504633.0 }, "geometry": { "type": "Point", "coordinates": [ -5.933306132999974, 34.255663010000035 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Lamrini", "Telephone": 537454356.0 }, "geometry": { "type": "Point", "coordinates": [ -5.922303957999929, 34.259748329000047 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Hay Al Jadid", "Telephone": 537504900.0 }, "geometry": { "type": "Point", "coordinates": [ -5.947459386999981, 34.257162085000061 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Abdelilah", "Telephone": 530091832.0 }, "geometry": { "type": "Point", "coordinates": [ -5.920961071999955, 34.251145214000076 ] } },
+{ "type": "Feature", "properties": { "Name": "pharmacie Laghlalta", "Telephone": 537504409.0 }, "geometry": { "type": "Point", "coordinates": [ -5.944273599999974, 34.250320500000043 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Slimania", "Telephone": 537504540.0 }, "geometry": { "type": "Point", "coordinates": [ -5.932492940999964, 34.25265715900008 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie rahma", "Telephone": 534557898.0 }, "geometry": { "type": "Point", "coordinates": [ -5.934931379999966, 34.258995065000079 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Jbirat", "Telephone": 546435475.0 }, "geometry": { "type": "Point", "coordinates": [ -5.942291711999928, 34.263598859000069 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Sidi Slimane", "Telephone": 530302888.0 }, "geometry": { "type": "Point", "coordinates": [ -5.927575703999935, 34.253987507000033 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Riad", "Telephone": 537362807.0 }, "geometry": { "type": "Point", "coordinates": [ -5.913085505999959, 34.253607888000033 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Al Mohammadia", "Telephone": 564637483.0 }, "geometry": { "type": "Point", "coordinates": [ -5.908845441999972, 34.254563179000058 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie internationale", "Telephone": 716700989.0 }, "geometry": { "type": "Point", "coordinates": [ -5.906812084999956, 34.259336884000049 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie  nasim", "Telephone": 545635365.0 }, "geometry": { "type": "Point", "coordinates": [ -5.905060115999959, 34.263617701000044 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Ibn Khaldoun", "Telephone": 535730123.0 }, "geometry": { "type": "Point", "coordinates": [ -5.935807497999974, 34.262862505000044 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Mansouri", "Telephone": 567544356.0 }, "geometry": { "type": "Point", "coordinates": [ -5.92541044099994, 34.266276160000075 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie La Résistance", "Telephone": 536478545.0 }, "geometry": { "type": "Point", "coordinates": [ -5.920437694999976, 34.267380512000045 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Permanence", "Telephone": 705814576.0 }, "geometry": { "type": "Point", "coordinates": [ -5.917241328999978, 34.26777084400004 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie", "Telephone": 537504540.0 }, "geometry": { "type": "Point", "coordinates": [ -5.904540231999931, 34.253137572000071 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Al Masjid", "Telephone": 534546765.0 }, "geometry": { "type": "Point", "coordinates": [ -5.923905223999952, 34.254319566000049 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Assafaa", "Telephone": 537501046.0 }, "geometry": { "type": "Point", "coordinates": [ -5.919986966999943, 34.253958448000049 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Menara", "Telephone": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -5.916904989999978, 34.252706587000034 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Yassine", "Telephone": 535604253.0 }, "geometry": { "type": "Point", "coordinates": [ -5.936747127999979, 34.269264489000079 ] } },
+{ "type": "Feature", "properties": { "Name": "Pharmacie Essalam", "Telephone": 537501418.0 }, "geometry": { "type": "Point", "coordinates": [ -5.925471185999925, 34.257848386000035 ] } }
+]
+}
